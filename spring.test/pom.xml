@@ -7,16 +7,26 @@
         <groupId>org.example</groupId>
         <artifactId>down1156.github.io</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../down1156.github.io/pom.xml</relativePath>
     </parent>
 
-    <artifactId>algorithm423</artifactId>
-
+    <artifactId>spring.test</artifactId>
+    <dependencies>
+        <!-- Spring框架 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 
 </project>
